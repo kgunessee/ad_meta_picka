@@ -93,6 +93,9 @@ generate.addEventListener("click", () => {
   } else {
     result.innerText = longPhrases[getRandomNumber(longPhrases.length)];
   }
+
+  copyButton.innerText = "Copy"
+
 });
 
 copyButton.addEventListener("click", () => {
